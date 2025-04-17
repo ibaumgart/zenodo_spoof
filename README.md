@@ -72,4 +72,25 @@ PS D:\iwb5\Git\zenodo_spoof> python zenodo_spoof_v1.py
 - Switching to alternate CITATION.cff
 - Offers pre-commit hook to validate
 
-19. 
+19. Committed CITATION.cff as release v2
+- New Zenodo error
+```
+{
+    "error_id": "baa6bae408714235b9b69e6d880d537e",
+    "errors": "Citation metadata load failed"
+}
+```
+
+20. Downloaded cff-convert
+- https://github.com/citation-file-format/cffconvert
+- Problem with "N/A" value for "license" field, must be specific type
+
+21. cff does not allow separate "author" and "contributor" fields, switched back to .zenodo.json
+
+22. Added .zenodo.json back to repo
+
+23. Installed check-jsonschema and checked .zenodo.json
+- pip install check-jsonschema
+- check-jsonschema --schemafile https://raw.githubusercontent.com/zenodo/zenodo/refs/heads/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json .zenodo.json
+
+24. Committed and added as tag v3

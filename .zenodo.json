@@ -1,0 +1,34 @@
+{
+    "creators": [
+        {
+          "orcid": "0000-0001-9743-2181",
+          "affiliation": "Duke University",
+          "name": "Baumgart, Ian"
+        }
+    ],
+  
+    "contributors": [
+      {
+        "orcid": "0000-0001-9743-2181",
+        "affiliation": "Duke University",
+        "name": "Baumgart, Ian"
+      }
+    ],
+  
+    "description": "TBD",
+  
+    "notes": "TBD",
+  
+    "license": "GNU General Public License v2.0 only",
+  
+    "title": "zenodo_spoof 4.0.0",
+  
+    "keywords": ["Peripheral Nerve Stimulation", "Finite Element Model"],
+  
+    "communities": [{ "identifier": "The Baumgart Lab" }],
+  
+    "grants": [
+      { "id": "None" },
+      { "id": "National absc (658771)" }
+    ]
+  }
