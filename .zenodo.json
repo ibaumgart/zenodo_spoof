@@ -20,7 +20,7 @@
   
     "notes": "TBD",
   
-    "license": "GPL-2.0",
+    "license": "GPL-2.0-only",
   
     "title": "zenodo_spoof 4.0.0",
   
@@ -29,7 +29,7 @@
     "communities": [{ "identifier": "The Baumgart Lab" }],
   
     "grants": [
-      { "id": "None" },
+      { "id": "National abc" },
       { "id": "National absc (658771)" }
     ]
 }
