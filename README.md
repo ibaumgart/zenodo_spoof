@@ -18,8 +18,8 @@ Archive release after zenodo integration
 3. Make a release commit
 - Added Release_0.txt
 - Commited/pushed to repo
-- Added "v00" tag in git
-    - git tag v00
-- In GitHub created this as release v00
 
-4. 
+4. Added release tag in a new commit
+- git push origin v0
+
+4. In GitHub created this as release v0
