@@ -38,3 +38,38 @@ Archive release after zenodo integration
 - Added files
 - Committed/pushed to repo
 - Added release tag for v1
+
+12. Confirmed that release v1 was NOT archived in Zenodo
+
+13. Re-ENABLED zenodo_spoof GitHub repo in Zenodo
+
+14. Added zenodo_spoof.py
+- Code used to re-send the webhook request for Zenodo archiving of a previous release
+- Taken from https://github.com/zenodo/zenodo/issues/1463#issuecomment-1034581344
+- *NOTE*: Zenodo will always use the latest webhook as the latest release on Zenodo page. Therefore, you must use this code in chronological order: oldest to newest.
+- *NOTE*: I did not commit the actual script I used to send the webhook, just the template.
+
+15. Ran zenodo_spoof_v1.py
+- This had the appropriate values filled out for this repository
+```
+PS D:\iwb5\Git\zenodo_spoof> python zenodo_spoof_v1.py
+<Response [202]>
+```
+- Response 202 indicates success
+
+16. Zenodo failed to archive event, but has a log for the request
+```
+{
+    "error_id": "86ed0c2e3cf5439380d62b309b2cf589",
+    "errors": "Extra metadata load failed."
+}
+```
+17. Tried deleting release and re-releasing with same tag and metadata
+- Same error from Zenodo
+
+18. Problem lies with .zenodo.json
+- Unexpected format or structure probably
+- Switching to alternate CITATION.cff
+- Offers pre-commit hook to validate
+
+19. 
