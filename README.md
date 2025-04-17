@@ -91,6 +91,19 @@ PS D:\iwb5\Git\zenodo_spoof> python zenodo_spoof_v1.py
 
 23. Installed check-jsonschema and checked .zenodo.json
 - pip install check-jsonschema
-- check-jsonschema --schemafile https://raw.githubusercontent.com/zenodo/zenodo/refs/heads/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json .zenodo.json
+```
+PS D:\iwb5\Git\zenodo_spoof> check-jsonschema --schemafile https://raw.githubusercontent.com/zenodo/zenodo/refs/heads/master/zenodo/modules/deposit/jsonschemas/deposits/records/legacyrecord.json .zenodo.json
+ok -- validation done
+```
 
-24. Committed and added as tag v3
+24. Committed and added as tag v4, released via GitHub
+
+25. Zenodo failed again
+```
+{
+    "error_id": "8b3b2ecef4534db2b9c318eb58076588",
+    "errors": "Extra metadata load failed."
+}
+```
+
+26. 

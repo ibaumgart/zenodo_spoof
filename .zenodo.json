@@ -11,7 +11,8 @@
       {
         "orcid": "0000-0001-9743-2181",
         "affiliation": "Duke University",
-        "name": "Baumgart, Ian"
+        "name": "Baumgart, Ian",
+        "type": "Researcher"
       }
     ],
   
@@ -19,7 +20,7 @@
   
     "notes": "TBD",
   
-    "license": "GPL-2.0-only",
+    "license": "GNU General Public License v2.0 only",
   
     "title": "zenodo_spoof 4.0.0",
   
@@ -31,4 +32,4 @@
       { "id": "None" },
       { "id": "National absc (658771)" }
     ]
-  }
+}
