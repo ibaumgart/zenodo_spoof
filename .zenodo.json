@@ -26,9 +26,5 @@
   
     "keywords": ["Peripheral Nerve Stimulation", "Finite Element Model"],
   
-    "communities": [{ "identifier": "The Baumgart Lab" }],
-  
-    "grants": [
-      { "id": "10.13039/100000052::1OT2OD025340-01" }
-    ]
+    "communities": [{ "identifier": "The Baumgart Lab" }]
 }
