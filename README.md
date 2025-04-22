@@ -106,4 +106,8 @@ ok -- validation done
 }
 ```
 
-26. 
+26. Removed all grants fields, added GPL-2.0-only as license in .zenodo.json
+
+27. Rereleased, and archive successful.
+
+Instead of resending webhook, delete release and re-release at new commit for real repo.
