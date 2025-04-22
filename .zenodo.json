@@ -29,7 +29,6 @@
     "communities": [{ "identifier": "The Baumgart Lab" }],
   
     "grants": [
-      { "id": "abc::Nationalabc" },
-      { "id": "xyz::National(658771)" }
+      { "id": "10.13039/100000052::1OT2OD025340-01" }
     ]
 }
